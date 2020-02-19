@@ -4,7 +4,12 @@
     <!--
     <easyScoreCalculatorClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingEasyScoreCalculator</easyScoreCalculatorClass>
     -->
+    <!--
     <scoreDrl>org/optaplanner/examples/cloudbalancing/solver/cloudBalancingScoreRules.drl</scoreDrl>
+    -->
+    
+    <constraintProviderClass>org.optaplanner.examples.cloudbalancing.optional.score.CloudBalancingConstraintProvider</constraintProviderClass>
+    
   </scoreDirectorFactory>
   <termination>
     <millisecondsSpentLimit>5000</millisecondsSpentLimit>
